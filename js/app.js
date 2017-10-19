@@ -64,7 +64,11 @@ function fncSubmit()
         
         
     }
-
     document.form2.submit();
-
 }
+
+$(function(){
+    $('#test').click(function(){
+        $('#notify').click();
+    })
+})
