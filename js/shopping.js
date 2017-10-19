@@ -2,4 +2,10 @@
 var url = "http://localhost:3000/products";
 $.get(url, function(data){
     console.log(data);
+    var template = $('#template').html();
+
+    for(var i=0;i<data.length;i++){
+        var rendered = Mustache.render(template, data[i]);
+        $('#product').append(rendered);
+    }
 });

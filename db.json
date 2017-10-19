@@ -1,33 +1,59 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "URL": "https://tescolotus-website.s3-ap-southeast-1.amazonaws.com/uploads/blog/img/photo/257_5942_th.jpg",
-            "Productname": "ปลาแซลม่อน",
-            "Catagories" : "meat",
-            "Product Grade" : "A",
-            "Price" : "480"
-
-        },
-
-        {
-            "id": 2,
-            "URL": "https://f.ptcdn.info/253/029/000/1426120600-IMG0200-o.jpg",
-            "Productname": "ปลาทู",
-            "Catagories" : "meat",
-            "Product Grade" : "B",
-            "Price" : "400"
-
-        },
-
-        {
-            "id": 3,
-            "URL": "http://www.pkfood.co.th/images/sub_categ/platato(platajong).JPG",
-            "Productname": "ปลาตาจง",
-            "Catagories" : "meat",
-            "Product Grade" : "Other",
-            "Price" : "200"
-
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "URL": "https://tescolotus-website.s3-ap-southeast-1.amazonaws.com/uploads/blog/img/photo/257_5942_th.jpg",
+      "Productname": "ปลาแซลม่อน",
+      "ProductGrade": "A",
+      "Price": "480"
+    },
+    {
+      "id": 2,
+      "URL": "https://f.ptcdn.info/253/029/000/1426120600-IMG0200-o.jpg",
+      "Productname": "ปลาทู",
+      "Catagories": "meat",
+      "ProductGrade": "B",
+      "Price": "400"
+    },
+    {
+      "id": 3,
+      "URL": "http://www.pkfood.co.th/images/sub_categ/platato(platajong).JPG",
+      "Productname": "ปลาตาจง",
+      "Catagories": "meat",
+      "ProductGrade": "Other",
+      "Price": "200"
+    },
+    {
+      "id": 4,
+      "URL": "http://www.pkfood.co.th/images/sub_categ/platato(platajong).JPG",
+      "Productname": "ปลาตาจง",
+      "Catagories": "meat",
+      "ProductGrade": "Other",
+      "Price": "200"
+    },
+    {
+      "URL": "https://sites.google.com/site/begeryeasy/_/rsrc/1416820496768/home/kherp-khek-cha-kheiyw/d0b47b63f0164682a918223714098f1f.jpg",
+      "Productname": "Begery",
+      "Catagories": "meat",
+      "ProductGrade": "other",
+      "Price": "280",
+      "id": 5
+    },
+    {
+      "URL": "https://sites.google.com/site/begeryeasy/_/rsrc/1416820496768/home/kherp-khek-cha-kheiyw/d0b47b63f0164682a918223714098f1f.jpg",
+      "Productname": "Begery",
+      "Catagories": "meat",
+      "ProductGrade": "C",
+      "Price": "250",
+      "id": 6
+    },
+    {
+      "URL": "https://sites.google.com/site/begeryeasy/_/rsrc/1416820496768/home/kherp-khek-cha-kheiyw/d0b47b63f0164682a918223714098f1f.jpg",
+      "Productname": "Begery",
+      "Catagories": "meat",
+      "ProductGrade": "C",
+      "Price": "250",
+      "id": 7
+    }
+  ]
 }

@@ -1,76 +1,52 @@
-function fncSubmit()
-{   
+function fncSubmit() {
 
-    if($('#URL').val() == ""){
-        $(function() { 
+    if ($('#URL').val() == "") {
+        $(function () {
             $('#notify').click();
         });
         return false;
 
     }
 
-    if($('#ProductName').val() == ""){
-        $(function() { 
+    if ($('#ProductName').val() == "") {
+        $(function () {
             $('#notify1').click();
         });
         return false;
 
     }
 
-    if(document.form2.Catagories.value=="*"){
-        $(function() { 
+    if ($('#Catagories').val() == "*") {
+        $(function () {
             $('#notify2').click();
         });
         return false;
-    } 
+    }
 
-    if(document.form2.Grade.value=="none"){
-        $(function() { 
+    if ($('#Grade').val() == "none") {
+        $(function () {
             $('#notify3').click();
         });
         return false;
     }
 
-    if(document.form2.Price.value==""){
-        $(function() { 
+    if ($('#Price').val() == "") {
+        $(function () {
             $('#notify4').click();
         });
         return false;
     }
 
-    if(document.form2.Detail.value==""){
-        $(function() { 
-            $('#notify5').click();
-        });
-        return false;
-    }
-
-
-    if(document.form2.shipment.value==""){
-        $(function() { 
-            $('#notify6').click();
-        });
-        return false;
-    }
-
-    if(document.form2.Fee.value==""){
-        $(function() { 
-            $('#notify7').click();
-        });
-        return false;
-    }
-
-    else{
-        
-        
-    }
     document.form2.submit();
 }
 
-$(function(){
-    $('#edit').click(function(){
-        $('#notify').click();
-    })
+$(function () {
+    $.get(url, function (data) {
+        console.log(data);
+        for (var i = 1; i <= data.length; i++) {
+            $('#edit'+i).click(function () {
+                $('#notify').click();
+            })
+        }
+    });
 })
-
-
