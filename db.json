@@ -1,0 +1,33 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "URL": "https://tescolotus-website.s3-ap-southeast-1.amazonaws.com/uploads/blog/img/photo/257_5942_th.jpg",
+            "Productname": "ปลาแซลม่อน",
+            "Catagories" : "meat",
+            "Product Grade" : "A",
+            "Price" : "480"
+
+        },
+
+        {
+            "id": 2,
+            "URL": "https://f.ptcdn.info/253/029/000/1426120600-IMG0200-o.jpg",
+            "Productname": "ปลาทู",
+            "Catagories" : "meat",
+            "Product Grade" : "B",
+            "Price" : "400"
+
+        },
+
+        {
+            "id": 3,
+            "URL": "http://www.pkfood.co.th/images/sub_categ/platato(platajong).JPG",
+            "Productname": "ปลาตาจง",
+            "Catagories" : "meat",
+            "Product Grade" : "Other",
+            "Price" : "200"
+
+        }
+    ]
+}

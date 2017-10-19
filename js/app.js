@@ -68,7 +68,9 @@ function fncSubmit()
 }
 
 $(function(){
-    $('#test').click(function(){
+    $('#edit').click(function(){
         $('#notify').click();
     })
 })
+
+
