@@ -40,13 +40,15 @@ function fncSubmit() {
     document.form2.submit();
 }
 
-$(function () {
+/*$(function () {
     $.get(url, function (data) {
         console.log(data);
         for (var i = 1; i <= data.length; i++) {
             $('#edit'+i).click(function () {
+                //var index = $('#'+'testid'+(i-1)).val();
                 $('#notify').click();
+                console.log(index);
             })
         }
     });
-})
+});*/

@@ -4,6 +4,7 @@ $(function(){
 
         newproduct.URL= $('#URL').val();
         newproduct.Productname= $('#ProductName').val();
+        newproduct.Catagories = $("#Catagories").val();
         newproduct.ProductGrade = $('#Grade').val();
         newproduct.Price= $('#Price').val();
 

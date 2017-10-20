@@ -1,27 +1,28 @@
 {
   "products": [
     {
-      "id": 1,
-      "URL": "https://tescolotus-website.s3-ap-southeast-1.amazonaws.com/uploads/blog/img/photo/257_5942_th.jpg",
-      "Productname": "ปลาแซลม่อน",
-      "ProductGrade": "A",
-      "Price": "480"
-    },
-    {
-      "id": 2,
       "URL": "https://f.ptcdn.info/253/029/000/1426120600-IMG0200-o.jpg",
-      "Productname": "ปลาทู",
+      "Productname": "ปลาทูสองหน้า555",
       "Catagories": "meat",
       "ProductGrade": "B",
-      "Price": "400"
+      "Price": "40000",
+      "id": 1
     },
     {
-      "id": 3,
+      "URL": "https://f.ptcdn.info/253/029/000/1426120600-IMG0200-o.jpg",
+      "Productname": "ปลาทู...",
+      "Catagories": "meat",
+      "ProductGrade": "B",
+      "Price": "4000",
+      "id": 2
+    },
+    {
       "URL": "http://www.pkfood.co.th/images/sub_categ/platato(platajong).JPG",
       "Productname": "ปลาตาจง",
       "Catagories": "meat",
-      "ProductGrade": "Other",
-      "Price": "200"
+      "ProductGrade": "A",
+      "Price": "200",
+      "id": 3
     },
     {
       "id": 4,
@@ -54,6 +55,22 @@
       "ProductGrade": "C",
       "Price": "250",
       "id": 7
+    },
+    {
+      "URL": "https://sites.google.com/site/begeryeasy/_/rsrc/1416820496768/home/kherp-khek-cha-kheiyw/d0b47b63f0164682a918223714098f1f.jpg",
+      "Productname": "Begery",
+      "Catagories": "Flour and sugar",
+      "ProductGrade": "B",
+      "Price": "2500",
+      "id": 8
+    },
+    {
+      "URL": "https://sites.google.com/site/begeryeasy/_/rsrc/1416820496768/home/kherp-khek-cha-kheiyw/d0b47b63f0164682a918223714098f1f.jpg",
+      "Productname": "เค้ก",
+      "Catagories": "Flour and sugar",
+      "ProductGrade": "other",
+      "Price": "20000000",
+      "id": 9
     }
   ]
 }

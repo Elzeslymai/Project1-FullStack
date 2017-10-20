@@ -25,10 +25,11 @@
                                 <div class=""><img src="{{URL}}" alt="" style="width:250px; height:160px;"></div>
                                 <div class="mask1">
                                     <div class="info" id="edit{{id}}">Edit Product</div>
+                                    <input type="hidden" value="{{id}}" id="testid{{id}}">
                                 </div>
                             </div>
                             <div class="{{price}}">
-                                <font color="red">฿480 </font>
+                                <font color="red">฿{{Price}} </font>
                             </div>
                         </div>
                     </div>
@@ -38,7 +39,8 @@
                                 <img src="images/plus.png" alt="" />
                                 <ul class="icon1 sub-icon1 profile_img">
                                     <li>
-                                        <a class="" href="#">Delete</a>
+                                        <a class="" href="#" id="delete{{id}}">Delete</a>
+                                        <input type="hidden" value="{{id}}" id="deleteid{{id}}">
                                     </li>
                                 </ul>
                             </li>
@@ -70,7 +72,6 @@
    
     <div id="product">
         <!--content-->
-
     </div>
 
     <input type="hidden" id="notify" class="form-control input-md btn-info" data-toggle="modal" data-target="#forgetmodal1">
@@ -84,7 +85,7 @@
                             <span aria-hidden="true">×</span>
                             <span class="sr-only">Close</span>
                         </button>
-                    <h4 class="modal-title">Add Product</h4>
+                    <h4 class="modal-title">Edit Product</h4>
                 </div>
 
                 <div class="modal-body">
@@ -147,18 +148,24 @@
 
                     <div class="form-group">
                         <div class="col-md-3 col-sm-offset-5">
-                            <input id="OngoingFee" name="OngoingFee" type="submit" value="Confirm" class="form-control input-md btn-info">
+                            <button id="update" name="OngoingFee" class="form-control input-md btn-info">Confirm</button>
                         </div>
                     </div>
 
                 </div>
                 <div class="modal-footer">
-                    <a href="/FinalProject/UserAdmin/add-user.php"><button type="button" class="btn btn-default" data-dismiss="modal">close</button></a>
+                    <a href="shopping.html"><button type="button" class="btn btn-default" data-dismiss="modal">close</button></a>
 
                 </div>
             </div>
         </div>
     </div>
+    <div id="check">
+        <!--script-->
+    </script>
+    </div>
+    
+
     <input type="hidden" id="load" value="test">
     <script src="js/app.js"></script>
 </body>
